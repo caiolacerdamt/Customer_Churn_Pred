@@ -8,5 +8,9 @@ def CardTypetoInt(type):
     elif type == 'SILVER':
         return 1
     
-
+def GendertoInt(type):
+    if type == "Female":
+        return 0
+    else:
+        return 1
 
